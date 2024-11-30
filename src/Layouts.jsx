@@ -24,13 +24,12 @@ const Layouts = () => {
       <Flex
         flexDirection={"row"}
         justifyContent={"start"}
-        alignItems={"center"}
-        height={"5%"}
-        gap={"2%"}
-        margin={"3px 0px 0px 0px"}
-        marginRight={"2%"}
+        alignItems={"flex-end"}
+        height={"60px"}
+        gap={"20px"}
+        padding={"0 20px"}
       >
-        <Box fontSize={"36px"} margin={"30px"}>
+        <Box fontSize={"36px"} margin={"0"}>
           Pink Life
         </Box>
         <NavLink

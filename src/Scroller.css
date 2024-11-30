@@ -1,0 +1,31 @@
+/* ScrollingText.css */
+.scroller-container {
+  margin-top: 10vh;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+  background-color: #f69ac2;
+  /* border: 1px solid black; */
+}
+
+.scroller-text {
+  display: inline-flex;
+  padding: 10px;
+  font-size: 18px;
+  animation: scroll 20s infinite linear;
+}
+
+.scroller-text span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

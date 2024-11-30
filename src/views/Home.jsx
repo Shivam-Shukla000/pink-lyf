@@ -1,6 +1,7 @@
 import { Box, Flex, Button } from "@chakra-ui/react";
 import parivar from "../../public/image.png";
 import { useNavigate } from "react-router-dom";
+import Scroller from "../Scroller";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ export default function Home() {
   const sbg = "#FFE8D3";
   return (
     <Flex flexDirection={"column"} align={"center"}>
-      <Flex padding={"40px"} bg={pbg} maxWidth={"50%"} marginTop={"50px"}>
+      <Flex padding={"40px"} bg={pbg} maxWidth={"50%"} marginTop={"70px"}>
         <Flex
           marginX={"20px"}
           align={"start"}
@@ -17,7 +18,7 @@ export default function Home() {
         >
           <Flex flexDirection={"column"} marginTop={"5px"} align={"start"}>
             <Flex fontWeight={"smeiBold"} fontSize={"32px"}>
-              Pink Lyf Vol.2
+              Pink Life Vol.2
               <Box fontSize={"10px"}>TM</Box>
             </Flex>
             <Flex
@@ -27,10 +28,12 @@ export default function Home() {
               maxWidth={"550px"}
               wrap={"wrap"}
             >
-              We are back wit vol.2 of amaziong ping life magazine Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Mollitia odit natus
-              debitis dicta voluptate nostrum ipsum placeat odio consequuntur
-              aperiam? quod.
+              We are proud to announce that we are back with another autistic
+              edition of the Pink Life Magazine! Answering your burning
+              questions! Is the server dead? Are the members alive? Is the world
+              ending? It might as well be. Because one read of this very human
+              magazine will kill you inside for sure! Speaking of things inside,
+              we promise no babies were harmed in this one. Read your copy! NOW!
             </Flex>
           </Flex>
           <Button
@@ -53,6 +56,7 @@ export default function Home() {
           <img width={"400px"} src={parivar} alt="" />
         </Box>
       </Flex>
+      <Scroller></Scroller>
     </Flex>
   );
 }

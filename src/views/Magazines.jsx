@@ -3,6 +3,10 @@ import parivar from "../../public/image.png";
 import volume1 from "../../public/volume1.png";
 
 export default function Magazines() {
+  const openPDF = (pdfPath) => {
+    window.open(pdfPath, "_blank");
+  };
+
   const pbg = "#F69AC2";
   const sbg = "#FFE8D3";
   return (
@@ -20,6 +24,7 @@ export default function Magazines() {
           textColor={"white"}
           _hover={{ bg: "black" }}
           shadow={"6px 6px 1px 0px rgba(0, 0, 0, .4)"}
+          onClick={() => openPDF("/pdfs/vol1.pdf")}
         >
           Read Vol.1
         </Button>
