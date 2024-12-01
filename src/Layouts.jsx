@@ -1,9 +1,9 @@
-import { Box, Flex, Button } from "@chakra-ui/react";
-import { transform } from "framer-motion";
-import { Link, NavLink, Outlet } from "react-router-dom";
+import "./Fonting.css";
+import { Box, Flex } from "@chakra-ui/react";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Layouts = () => {
-  const pbg = "#F69AC2";
+  // const pbg = "#F69AC2";
   const sbg = "#FFE8D3";
   const activeStyle = {
     fontSize: "24px",
@@ -29,7 +29,7 @@ const Layouts = () => {
         gap={"20px"}
         padding={"0 20px"}
       >
-        <Box fontSize={"36px"} margin={"0"}>
+        <Box fontSize={"36px"} margin={"0"} className="logo">
           Pink Life
         </Box>
         <NavLink

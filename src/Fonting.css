@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Loyola";
+  src: url("../public/fonts/Loyola-Round-Pro-Light-Oblique.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Civane";
+  src: url("../public/fonts/Civane-Normal-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Funhouse";
+  src: url("../public/fonts/FunhouseRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Monkstead";
+  src: url("../public/fonts/Monkstead-Round.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mufan";
+  src: url("../public/fonts/mufan-pfs.woff") format("woff2"),
+    url("../public/fonts/mufan-pfs.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo {
+  font-family: "Monkstead";
+}
