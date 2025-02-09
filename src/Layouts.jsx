@@ -51,6 +51,12 @@ const Layouts = () => {
         >
           About
         </NavLink>
+        <NavLink
+          style={({ isActive }) => (isActive ? activeStyle : deActiveStyle)}
+          to={"/video"}
+        >
+          Video
+        </NavLink>
       </Flex>
       <Box
         onClick={() => {}}

@@ -6,6 +6,7 @@ import Magazines from "./views/Magazines";
 import About from "./views/About";
 
 import Layouts from "./Layouts";
+import Video from "./views/Video";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="magazines" element={<Magazines />} />
           <Route path="about" element={<About />} />
+          <Route path="video" element={<Video />} />
         </Route>
       </Routes>
     </>
