@@ -6,7 +6,7 @@ import Scroller from "../Scroller";
 export default function Home() {
   const navigate = useNavigate();
   const pbg = "#F69AC2";
-  const sbg = "#FFE8D3";
+  // const sbg = "#FFE8D3";
   return (
     <Flex flexDirection={"column"} align={"center"}>
       <Flex padding={"40px"} bg={pbg} maxWidth={"50%"} marginTop={"70px"}>
