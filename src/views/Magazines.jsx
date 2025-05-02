@@ -42,6 +42,7 @@ export default function Magazines() {
           textColor={"white"}
           _hover={{ bg: "black" }}
           shadow={"6px 6px 1px 0px rgba(0, 0, 0, .4)"}
+          onClick={() => openPDF("https://filebin.net/archive/zkq4ejsp80b28cs1/zip")}
         >
           Read Vol.2
         </Button>
