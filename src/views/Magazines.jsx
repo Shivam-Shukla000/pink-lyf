@@ -13,7 +13,7 @@ export default function Magazines() {
     <Flex marginTop={"40px"} gap={"50px"} justifyContent={"center"}>
       <Flex align={"center"} gap={"20px"} flexDirection={"column"}>
         <Box shadow={"12px 12px 2px 1px rgba(0, 0, 0, .4)"}>
-          <img width={"354px"} src={volume1} alt="" />
+          <img style={{ height: "clamp(250px, 30vw, 400px)", width: "auto" }} src={volume1} alt="" />
         </Box>
         <Button
           marginBottom={"10px"}
@@ -31,7 +31,7 @@ export default function Magazines() {
       </Flex>
       <Flex align={"center"} gap={"20px"} flexDirection={"column"}>
         <Box shadow={"12px 12px 2px 1px rgba(0, 0, 0, .4)"}>
-          <img width={"400px"} src={parivar} alt="" />
+          <img style={{ height: "clamp(250px, 30vw, 400px)", width: "auto" }} src={parivar} alt="" />
         </Box>
         <Button
           marginBottom={"10px"}
