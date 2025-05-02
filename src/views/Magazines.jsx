@@ -1,5 +1,5 @@
 import { Flex, Box, Button } from "@chakra-ui/react";
-import parivar from "../../public/image.png";
+import parivar from "../../public/Pink_LifeV2.png";
 import volume1 from "../../public/volume1.png";
 
 export default function Magazines() {
